@@ -93,7 +93,7 @@ const App = () => {
               <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-neon-blue opacity-75"></span>
               <span className="relative inline-flex rounded-full h-2 w-2 bg-neon-blue"></span>
             </span>
-            DATE PENDING • HARVARD BUSINESS SCHOOL
+            APRIL 14-15, 2026 • HARVARD BUSINESS SCHOOL
           </div>
 
           <h1 className="text-5xl md:text-8xl font-display font-black tracking-tighter text-white mb-8 leading-[0.9]">
@@ -143,7 +143,7 @@ const App = () => {
                   Most hackathons stop at software. We believe the next trillion-dollar opportunities lie at the intersection of <span className="text-white font-bold">atoms and bits</span>.
                 </p>
                 <p>
-                  The goal isn't just to code—it's to create a convincing pitch for a deep physical technical product that could feasibly work. Your challenge is to figure out the <strong className="text-neon-blue font-bold">supply chain, logistics, and engineering reality</strong> required to bring it to life.
+                  Force MBAs to move beyond high-level strategy by delivering three technical assets: a <strong className="text-neon-blue font-bold">3D CAD model/render</strong>, a verifiable <strong className="text-neon-blue font-bold">Bill of Materials (BOM) mapped to real suppliers</strong>, and a <strong className="text-neon-blue font-bold">go-to-market plan with defined unit economics</strong>.
                 </p>
               </div>
 
@@ -175,7 +175,7 @@ const App = () => {
                     </div>
                     <div>
                       <div className="font-bold text-white text-lg">Harvard Business School</div>
-                      <div className="text-slate-400 text-sm font-mono mt-1">COORDINATES PENDING</div>
+                      <div className="text-slate-400 text-sm font-mono mt-1">Batten 207</div>
                     </div>
                   </li>
                   <li className="flex items-start gap-6 group">
@@ -183,8 +183,8 @@ const App = () => {
                       <Calendar size={24} />
                     </div>
                     <div>
-                      <div className="font-bold text-white text-lg">Date Pending</div>
-                      <div className="text-slate-400 text-sm font-mono mt-1">13:00 - 18:00 EST</div>
+                      <div className="font-bold text-white text-lg">April 14 - April 15, 2026</div>
+                      <div className="text-slate-400 text-sm font-mono mt-1">April 14 - April 15</div>
                     </div>
                   </li>
                   <li className="flex items-start gap-6 group">
@@ -192,8 +192,8 @@ const App = () => {
                       <Users size={24} />
                     </div>
                     <div>
-                      <div className="font-bold text-white text-lg">Keynote Speaker</div>
-                      <div className="text-slate-400 text-sm font-mono mt-1">INDUSTRY LEADER [REDACTED]</div>
+                      <div className="font-bold text-white text-lg">Scale</div>
+                      <div className="text-slate-400 text-sm font-mono mt-1">~60 students (12-15 teams)</div>
                     </div>
                   </li>
                 </ul>
@@ -208,15 +208,26 @@ const App = () => {
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-20">
             <h2 className="text-4xl font-display font-bold text-white mb-4">RUN OF SHOW</h2>
-            <p className="text-neon-blue font-mono tracking-widest">4-HOUR SPRINT // VALIDATE THE IMPOSSIBLE</p>
+            <p className="text-neon-blue font-mono tracking-widest">2-DAY SPRINT // VALIDATE THE IMPOSSIBLE</p>
           </div>
 
           <div className="relative border-l-2 border-white/10 ml-4 md:ml-0 space-y-16">
             {[
-              { time: "00:00", title: "KEYNOTE & KICKOFF", desc: "Opening remarks by industry leader in automation.", icon: Rocket },
-              { time: "00:45", title: "DEEP DIVE WORKSHOP", desc: "Teams form and begin validating technical feasibility and supply chain logistics.", icon: Wrench },
-              { time: "03:45", title: "PITCH DECK FORMATION", desc: "Synthesizing findings into a compelling narrative.", icon: Cpu },
-              { time: "04:45", title: "JUDGES PITCH", desc: "Present findings to a panel of deep tech experts and investors.", icon: Users },
+              { time: "Day 1", title: "CONCEPT, ARCHITECTURE & SOURCING", desc: "April 14", icon: Rocket },
+              { time: "1:00 PM", title: "KICKOFF & CONSTRAINTS REVEAL", desc: "Define scope (e.g., robotics, defense tech, industrial AI).", icon: Rocket },
+              { time: "1:30 PM", title: "IDEATION & TEAM FORMATION", desc: "", icon: Users },
+              { time: "2:00 PM", title: "TOOLING CRASH COURSE", desc: "Rapid CAD (Onshape, AI generators) and supplier sourcing (ThomasNet, Alibaba).", icon: Wrench },
+              { time: "2:45 PM", title: "CORE WORKING BLOCK I", desc: "Architecture & Sourcing. Lock in the core concept; map the initial BOM.", icon: Box },
+              { time: "5:00 PM", title: "TECHNICAL REALITY CHECK", desc: "Deploy technical mentors sourced from the MS/MBA cohort and Q-Lab network to actively pressure-test hardware feasibility and automation logic.", icon: Settings },
+              { time: "6:00 PM", title: "WORKING DINNER", desc: "Heavy vegetarian and pescatarian catering.", icon: Clock },
+              { time: "7:00 PM", title: "CORE WORKING BLOCK II", desc: "Supplier Verification. Teams must secure real-world pricing and lead times for their BOM.", icon: Factory },
+              { time: "Day 2", title: "CAD, ECONOMICS & PITCH EXECUTION", desc: "April 15", icon: Rocket },
+              { time: "1:00 PM", title: "RECONVENE & TARGET SETTING", desc: "", icon: Rocket },
+              { time: "1:15 PM", title: "CORE WORKING BLOCK III", desc: "CAD Rendering & Unit Economics. Finalize visual assets and calculate precise unit costs based on Day 1 sourcing.", icon: Cpu },
+              { time: "4:00 PM", title: "PITCH CONSTRUCTION", desc: "Translate technical architecture and BOM data into an investment narrative.", icon: BrainCircuit },
+              { time: "5:30 PM", title: "WORKING DINNER", desc: "", icon: Clock },
+              { time: "6:30 PM", title: "PITCHES", desc: "Strict timing: 3-minute pitch, 2-minute Q&A per team.", icon: Users },
+              { time: "7:45 PM", title: "JUDGING & AWARDS", desc: "", icon: Users },
             ].map((item, idx) => (
               <div key={idx} className="relative md:pl-16 pl-10 group">
                 <div className="absolute -left-[9px] md:-left-[9px] bg-black border-2 border-hbs-crimson rounded-full p-2 text-white group-hover:shadow-[0_0_20px_#A51C30] transition-all z-10">

@@ -303,11 +303,13 @@ const App = () => {
               </a>
 
               <a
-                href="mailto:slam@mba2027.hbs.edu?subject=Sponsorship Inquiry - HBS Deep Tech Hackathon&body=Hi, we are interested in sponsoring the hackathon..."
+                href="https://forms.gle/caw3zhA5HR3oeaaEA"
+                target="_blank"
+                rel="noreferrer"
                 className="px-6 py-6 rounded-sm bg-white/5 text-white font-bold border border-white/10 hover:bg-white/10 hover:border-white/30 transition-all flex flex-col items-center justify-center gap-3 group"
               >
                 <span className="font-display tracking-wide group-hover:text-neon-blue transition-colors">SPONSOR EVENT</span>
-                <span className="text-xs font-mono text-slate-500 group-hover:text-white transition-colors">PARTNER WITH US</span>
+                <span className="text-xs font-mono text-slate-500 group-hover:text-white transition-colors">FORM REGISTRATION</span>
               </a>
             </div>
           </div>
